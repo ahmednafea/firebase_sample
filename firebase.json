@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "fir-sample-iacadimy",
+          "appId": "1:389418746372:android:d4bafccce5e56fde5fab51",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "fir-sample-iacadimy",
+          "appId": "1:389418746372:ios:b6b874e76b1dc17b5fab51",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "fir-sample-iacadimy",
+          "configurations": {
+            "android": "1:389418746372:android:d4bafccce5e56fde5fab51",
+            "ios": "1:389418746372:ios:b6b874e76b1dc17b5fab51"
+          }
+        }
+      }
+    }
+  }
+}
